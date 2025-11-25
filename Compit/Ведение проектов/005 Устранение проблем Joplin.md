@@ -25,7 +25,7 @@ services:
       POSTGRES_DB: joplin
     volumes:
       - ./db:/var/lib/postgresql/data
-    networks:
+    nenaontworks:
       - joplin-net
 
   joplin-server:
@@ -119,5 +119,5 @@ sudo systemctl status joplin.service
 
 **Выполните команды из пункта 3** - это должно решить проблему с доступностью Joplin.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk1Mzg4MTJdfQ==
+eyJoaXN0b3J5IjpbMTMyODQzODY0MiwtMTU1OTUzODgxMl19
 -->
